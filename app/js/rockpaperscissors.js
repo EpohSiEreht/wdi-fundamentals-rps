@@ -23,9 +23,9 @@ function randomPlay() {
 ////////////////////////////////////////////////
 
 //Global Variables
-var winner;
-var playerMove;
-var computerMove;
+var winner = "";
+var playerMove = "";
+var computerMove = "";
 
 function getPlayerMove(move) {
     return move || getInput();
